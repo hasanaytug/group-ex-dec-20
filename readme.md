@@ -9,6 +9,11 @@ Save the object in an array, and save that array to localstorage.
 
 When user loads the page, load notes from localstorage.
 
+Display the notes in the html page, inside the div with id "notes".
+Tip: Use createElement and createTextNode.
+
 The Sort By Text button sorts the notes array by text. Use a.text.localeCompare(b.text);
 The Sort By Time button sorts the notes array by the timestamp in each note. Use a.timestamp - b.timestamp.
 
+Optional:
+Make the sort order(ascending or descending) by text and time buttons invert the sorting order every time you press the button.
